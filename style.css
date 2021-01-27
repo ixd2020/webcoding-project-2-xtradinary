@@ -202,7 +202,7 @@ main a i {
 }
 
 .airpodspro {
-  background-image: url(img/index_img/airpod_tile_large_2x.jpg);
+  background-image: url(img/index_img/airpods_pro/airpod_tile_large_2x.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -218,35 +218,35 @@ main a i {
 }
 
 .applewatch {
-  background-image: url(img/index_img/tile__cauwwcyyn9hy_large_2x.jpg);
+  background-image: url(img/index_img/watch/tile__cauwwcyyn9hy_large_2x.jpg);
   background-position: center;
   background-size: cover;
 }
 
 
 .ipad {
-  background-image: url(img/index_img/tile__cauwwcyyn9hy_large_2x (1).jpg);
+  background-image: url(img/index_img/ipad/tile__cauwwcyyn9hy_large_2x.jpg);
   background-position: center;
   background-size: cover;
 }
 
 
 .airpodsmax {
-  background-image: url(img/index_img/tile_airpods_max__1fye83e0lle6_large_2x.jpg);
+  background-image: url(img/index_img/airpods_max/tile_airpods_max__1fye83e0lle6_large_2x.jpg);
   background-position: center;
   background-size: cover;
 }
 
 
 .appleone {
-  background-image: url(img/index_img/tile__cauwwcyyn9hy_large_2x (2).jpg);
+  background-image: url(img/index_img/one/tile__cauwwcyyn9hy_large_2x.jpg);
   background-position: center;
   background-size: cover;
 }
 
 
 .appletv {
-  background-image: url(img/index_img/tile__cauwwcyyn9hy_large_2x (3).jpg);
+  background-image: url(img/index_img/tv/tile__cauwwcyyn9hy_large_2x.jpg);
   background-position: center;
   background-size: cover;
 }
