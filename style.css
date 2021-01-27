@@ -194,6 +194,11 @@ main a i {
 
 .condiv a {
   color: #06c;
+  text-decoration: none;
+}
+
+.condiv a:hover {
+  text-decoration: underline;
 }
 
 .condiv a i {
@@ -219,10 +224,11 @@ main a i {
 
 .applewatch {
   background-image: url(img/index_img/watch/tile__cauwwcyyn9hy_large_2x.jpg);
-  background-position: center;
-  background-size: cover;
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: black;
 }
-
 
 .ipad {
   background-image: url(img/index_img/ipad/tile__cauwwcyyn9hy_large_2x.jpg);
@@ -230,25 +236,47 @@ main a i {
   background-size: cover;
 }
 
-
 .airpodsmax {
   background-image: url(img/index_img/airpods_max/tile_airpods_max__1fye83e0lle6_large_2x.jpg);
   background-position: center;
   background-size: cover;
 }
 
-
 .appleone {
   background-image: url(img/index_img/one/tile__cauwwcyyn9hy_large_2x.jpg);
-  background-position: center;
-  background-size: cover;
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #fbfbfd;
 }
 
+.appleone img {
+  width: 15%;
+}
+
+.appleone .cta img {
+  width: 10px;
+  color: white;
+}
 
 .appletv {
   background-image: url(img/index_img/tv/tile__cauwwcyyn9hy_large_2x.jpg);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  justify-content: flex-end;
+  color: white;
+}
+
+.appletv img {
+  width: 10%;
+}
+
+.appletv a {
+  color: white;
+}
+
+.appletv .cta img {
+  color: white;
 }
 
 /*media*/
