@@ -52,10 +52,10 @@ header {
   padding: 1.25em 0;
   text-align: center;
   font-size: 0.8em;
-  font-weight: lighter;
 }
 
 header a {
+  color: #06c;
   text-decoration: none;
 }
 
@@ -67,7 +67,7 @@ header a i {
   font-size: 0.7em;
 }
 
-.supfoot {
+header .supfoot {
   cursor: pointer;
 }
 
@@ -81,6 +81,7 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  margin: 0 0 0.8em 0;
 }
 
 main img {
@@ -97,6 +98,8 @@ main h1 {
 
 main a {
   text-decoration: none;
+  font-size: 1.2em;
+  color: #06c;
 }
 
 main a:hover {
@@ -105,6 +108,7 @@ main a:hover {
 
 main a i {
   font-size: 0.7em;
+  margin: 0 0.5em;
 }
 
 /*main hero*/
@@ -117,22 +121,48 @@ main a i {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  margin: 0 0 0.8em 0;
 }
 
-.iphone_12 img {
-  height: 88px;
-  margin: 2em auto 0 auto;
+.iphone_12pro {
+  background-image: url(img/index_img/iphone_12_pro__f7ri3g4x75m6_largetall_2x.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-m.iphone_12h1 {
-  margin: 0.3em;
-  font-size: 3em;
-  font-weight: normal;
+.iphone_12 h1 {
+  font-size: 3.5em;
+  font-weight: 500;
+  text-align: center;
+  margin: 1em auto 0 auto;
+}
+
+.iphone_12pro h1,
+.iphone_12pro p {
+  color: white;
+}
+
+.iphone_12 p {
+  margin: 0.2em;
+  font-size: 1.7em;
+  font-weight: 350;
   text-align: center;
 }
 
+.iphone_12 .cta {
+  margin: 1em;
+}
+
 .iphone_12 a {
+  font-size: 1.2em;
   text-decoration: none;
+  margin: 0 1em;
+  color: #06c;
 }
 
 .iphone_12 a:hover {
@@ -141,8 +171,85 @@ m.iphone_12h1 {
 
 .iphone_12 a i {
   font-size: 0.7em;
+  margin: 0 0.5em;
 }
 
+/*collection*/
+/*collection01*/
+.collection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.condiv {
+  height: 500px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0.3em;
+  text-align: center;
+}
+
+.condiv a {
+  color: #06c;
+}
+
+.condiv a i {
+  font-size: 0.7em;
+  margin: 0 0.5em;
+}
+
+.airpodspro {
+  background-image: url(img/index_img/airpod_tile_large_2x.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.airpodspro sup {
+  font-size: 0.7em;
+  font-weight: 400;
+}
+
+.condiv a i {
+  font-size: 0.7em;
+  margin: 0 0.5em;
+}
+
+.applewatch {
+  background-image: url(img/index_img/tile__cauwwcyyn9hy_large_2x.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+.ipad {
+  background-image: url(img/index_img/tile__cauwwcyyn9hy_large_2x (1).jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+.airpodsmax {
+  background-image: url(img/index_img/tile_airpods_max__1fye83e0lle6_large_2x.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+.appleone {
+  background-image: url(img/index_img/tile__cauwwcyyn9hy_large_2x (2).jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+.appletv {
+  background-image: url(img/index_img/tile__cauwwcyyn9hy_large_2x (3).jpg);
+  background-position: center;
+  background-size: cover;
+}
 
 /*media*/
 @media screen and (max-width:768px) {
