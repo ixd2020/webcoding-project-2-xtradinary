@@ -2,9 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'SF Text Pro', sans-serif;
+  font-family: 'SF Pro Text', sans-serif;
 }
 
+/*nav*/
 nav {
   background-color: rgba(0, 0, 0, 0.8);
 }
@@ -13,15 +14,137 @@ nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1000px;
+  margin: auto;
 }
 
 nav li {
   list-style: none;
   display: flex;
-align-content:
+  margin: auto 1em;
 }
 
 nav a {
   color: #f5f5f7;
   text-decoration: none;
+  font-weight: lighter;
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+
+nav img {
+  width: 18px;
+}
+
+nav a:hover {
+  opacity: 1;
+  transition: 1s;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header {
+  background-color: #f5f5f7;
+  padding: 1.25em 0;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: lighter;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+header a i {
+  font-size: 0.7em;
+}
+
+.supfoot {
+  cursor: pointer;
+}
+
+/*main hero*/
+main {
+  background-image: url(img/index_img/holiday20_largetall_2x.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+main img {
+  height: 88px;
+  margin: 2em auto 0 auto;
+}
+
+main h1 {
+  margin: 0.3em;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+}
+
+main a {
+  text-decoration: none;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
+
+main a i {
+  font-size: 0.7em;
+}
+
+/*main hero*/
+.iphone_12 {
+  background-image: url(img/index_img/iphone_12__ejhnn79bn1me_largetall_2x.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.iphone_12 img {
+  height: 88px;
+  margin: 2em auto 0 auto;
+}
+
+m.iphone_12h1 {
+  margin: 0.3em;
+  font-size: 3em;
+  font-weight: normal;
+  text-align: center;
+}
+
+.iphone_12 a {
+  text-decoration: none;
+}
+
+.iphone_12 a:hover {
+  text-decoration: underline;
+}
+
+.iphone_12 a i {
+  font-size: 0.7em;
+}
+
+
+/*media*/
+@media screen and (max-width:768px) {
+  /*navbar resize*/
 }
