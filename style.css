@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'SF Pro Text', sans-serif;
+}
+
+/*nav*/
+nav {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+nav li {
+  list-style: none;
+  display: flex;
+  margin: auto 1em;
+}
+
+nav a {
+  color: #f5f5f7;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+
+nav img {
+  width: 18px;
+}
+
+nav a:hover {
+  opacity: 1;
+  transition: 1s;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header {
+  background-color: #f5f5f7;
+  padding: 1.25em 0;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+header a {
+  color: #06c;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+header a i {
+  font-size: 0.7em;
+}
+
+header .supfoot {
+  cursor: pointer;
+}
+
+/*main hero*/
+main {
+  background-image: url(img/index_img/holiday20_largetall_2x.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 0 0.8em 0;
+}
+
+main img {
+  height: 88px;
+  margin: 2em auto 0 auto;
+}
+
+main h1 {
+  margin: 0.3em;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+}
+
+main a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #06c;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
+
+main a i {
+  font-size: 0.7em;
+  margin: 0 0.5em;
+}
+
+/*main hero*/
+.iphone_12 {
+  background-image: url(img/index_img/iphone_12__ejhnn79bn1me_largetall_2x.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 0 0.8em 0;
+}
+
+.iphone_12pro {
+  background-image: url(img/index_img/iphone_12_pro__f7ri3g4x75m6_largetall_2x.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.iphone_12 h1 {
+  font-size: 3.5em;
+  font-weight: 500;
+  text-align: center;
+  margin: 1em auto 0 auto;
+}
+
+.iphone_12pro h1,
+.iphone_12pro p {
+  color: white;
+}
+
+.iphone_12 p {
+  margin: 0.2em;
+  font-size: 1.7em;
+  font-weight: 350;
+  text-align: center;
+}
+
+.iphone_12 .cta {
+  margin: 1em;
+}
+
+.iphone_12 a {
+  font-size: 1.2em;
+  text-decoration: none;
+  margin: 0 1em;
+  color: #06c;
+}
+
+.iphone_12 a:hover {
+  text-decoration: underline;
+}
+
+.iphone_12 a i {
+  font-size: 0.7em;
+  margin: 0 0.5em;
+}
+
+/*collection*/
+/*collection01*/
+.collection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.condiv {
+  height: 500px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0.3em;
+  text-align: center;
+}
+
+.condiv a {
+  color: #06c;
+  text-decoration: none;
+}
+
+.condiv a:hover {
+  text-decoration: underline;
+}
+
+.condiv a i {
+  font-size: 0.7em;
+  margin: 0 0.5em;
+}
+
+.airpodspro {
+  background-image: url(img/index_img/airpods_pro/airpod_tile_large_2x.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.airpodspro sup {
+  font-size: 0.7em;
+  font-weight: 400;
+}
+
+.condiv a i {
+  font-size: 0.7em;
+  margin: 0 0.5em;
+}
+
+.applewatch {
+  background-image: url(img/index_img/watch/tile__cauwwcyyn9hy_large_2x.jpg);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+.ipad {
+  background-image: url(img/index_img/ipad/tile__cauwwcyyn9hy_large_2x.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.airpodsmax {
+  background-image: url(img/index_img/airpods_max/tile_airpods_max__1fye83e0lle6_large_2x.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.appleone {
+  background-image: url(img/index_img/one/tile__cauwwcyyn9hy_large_2x.jpg);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #fbfbfd;
+}
+
+.appleone img {
+  width: 15%;
+}
+
+.appleone .cta img {
+  width: 10px;
+  color: white;
+}
+
+.appletv {
+  background-image: url(img/index_img/tv/tile__cauwwcyyn9hy_large_2x.jpg);
+  background-position: center;
+  background-size: contain;
+  justify-content: flex-end;
+  color: white;
+}
+
+.appletv img {
+  width: 10%;
+}
+
+.appletv a {
+  color: white;
+}
+
+.appletv .cta img {
+  color: white;
+}
+
+/*media*/
+@media screen and (max-width:768px) {
+  /*navbar resize*/
+}
