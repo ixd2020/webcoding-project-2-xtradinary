@@ -5,6 +5,8 @@
   font-family: 'SF Pro Text', sans-serif;
 }
 
+hr {}
+
 /*nav*/
 nav {
   background-color: rgba(0, 0, 0, 0.8);
@@ -39,6 +41,10 @@ nav img {
 nav a:hover {
   opacity: 1;
   transition: 1s;
+}
+
+.mobilenav {
+  display: none;
 }
 
 .sticky {
@@ -299,8 +305,9 @@ main a i {
 
 .appletv {
   background-image: url(img/index_img/tv/tile__cauwwcyyn9hy_large_2x.jpg);
-  background-position: center;
-  background-size: contain;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
   justify-content: flex-end;
   color: white;
   padding: 2em;
@@ -321,36 +328,50 @@ main a i {
 .appletv p {
   font-size: 1.5em;
   color: #f5f5f7;
-  margin: 0.5em auto;
+  margin: 0.5em 2em;
 }
 
-.footerterms,
-.directory,
 footer {
   background-color: #f5f5f7;
 }
 
-
-.footerterms p {
+.footcon {
   width: 70%;
-  margin: auto;
+  margin: 0 auto;
+}
+
+.footerterms {
+  padding: 1em 1em 0 1em;
+}
+
+.fterms p {
+  margin: 0 auto 1em auto;
   font-size: 0.8em;
   color: rgba(0, 0, 0, 0.3);
 }
 
-.footerterms p:last-child {
-  padding-bottom: 1em; 
-  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+.fterms a {
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
 }
 
+.fterms a:hover {
+  text-decoration: underline;
+}
+
+.fterms hr {
+  opacity: 0.5;
+}
 
 .directory {
   display: flex;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .directory li {
-  font-size: 0.8em;
+  font-size: 0.7em;
   list-style: none;
   margin: 1em auto;
 }
@@ -365,10 +386,18 @@ footer {
   text-decoration: underline;
 }
 
+.directorycolumbs {
+  margin: 1em;
+}
+
+.directorycolumbsmobile {
+  display: none;
+}
+
 .directorycolumb {
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 100%;
 }
 
 .linkacc,
@@ -377,15 +406,12 @@ footer {
   margin-top: 2em;
 }
 
-footer {
+.footer {
   font-size: 0.8em;
   color: rgba(0, 0, 0, 0.5);
 }
 
-
-
 .footsect {
-  width: 70%;
   margin: auto;
 }
 
@@ -402,10 +428,19 @@ footer {
   padding: 1em;
 }
 
+.footsect hr {
+  opacity: 0.5;
+  margin: 0 1em;
+}
+
 .foot {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.sporetop {
+  display: none;
 }
 
 .footlink ul {
@@ -415,6 +450,7 @@ footer {
 
 .footlink li {
   font-size: 0.8em;
+  font-weight: bold;
   list-style: none;
   margin: auto 1em;
   padding: 0 1em;
@@ -437,7 +473,21 @@ footer {
 
 /*media*/
 @media screen and (max-width:768px) {
+
   /*navbar resize*/
+  .webnav {
+    display: none;
+  }
+
+  .mobilenav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mobilenav li {
+    margin: 0 1em;
+  }
 }
 
 @media screen and (max-width:700px) {
@@ -529,10 +579,10 @@ footer {
     height: 500px;
   }
 
-.ipad h1 {
-  font-size: 2em;
-  margin: 0.5em auto 0 auto;
-}
+  .ipad h1 {
+    font-size: 2em;
+    margin: 0.5em auto 0 auto;
+  }
 
   .ipad p {
     font-size: 1em;
@@ -547,11 +597,11 @@ footer {
     height: 500px;
   }
 
-
   .appletv {
     background-image: url(img/index_img/tv/tile__cauwwcyyn9hy_small_2x.jpg);
     height: 500px;
   }
+
   .appletv img {
     width: 15%;
   }
@@ -559,5 +609,72 @@ footer {
   .appletv p {
     font-size: 1em;
     margin: 0.5em 3em;
+  }
+
+  .footerterms p {
+    width: 100%;
+    font-size: 0.7em;
+    font-weight: 500;
+  }
+
+  .foot {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footcon {
+    width: 100%;
+  }
+
+  .directorycolumbs {
+    display: none;
+  }
+
+  .directorycolumbsmobile {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 1em auto;
+  }
+
+  .directorycolumbsmobile li {
+    width: 456px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .directorycolumbsmobile li p {
+    margin-right: 1em;
+  }
+
+  .directorycolumbsmobile hr {
+  opacity: 0.5;
+}
+
+  .footsect {
+    width: 100%;
+  }
+
+  .footsect hr {
+    display: none;
+  }
+
+  .footlink {
+    align-items: flex-start;
+    font-size: 0.9em;
+    font-weight: 500;
+  }
+
+  .footlink li {
+    padding: 0 1em 1em 0.5em;
+    margin: 1em;
+  }
+
+  .sporetop {
+    display: flex;
+  }
+
+  .sporebot {
+    display: none;
   }
 }
