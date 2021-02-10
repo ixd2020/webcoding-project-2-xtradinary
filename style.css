@@ -78,7 +78,7 @@ header .supfoot {
 }
 
 /*main hero*/
-main {
+.heromain {
   background-image: url(img/index_img/holiday20_largetall_2x.jpg);
   background-position: center;
   background-size: cover;
@@ -90,29 +90,29 @@ main {
   margin: 0 0 0.8em 0;
 }
 
-main img {
+.heromain img {
   height: 88px;
   margin: 2em auto 0 auto;
 }
 
-main h1 {
+.heromain h1 {
   margin: 0.3em;
   font-size: 3em;
   font-weight: bold;
   text-align: center;
 }
 
-main a {
+.heromain a {
   text-decoration: none;
   font-size: 1.2em;
   color: #06c;
 }
 
-main a:hover {
+.heromain a:hover {
   text-decoration: underline;
 }
 
-main a i {
+.heromain a i {
   font-size: 0.7em;
   margin: 0 0.5em;
 }
@@ -326,9 +326,9 @@ main a i {
 }
 
 .appletv p {
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #f5f5f7;
-  margin: 0.5em 2em;
+  margin: 0.5em 6em;
 }
 
 footer {
@@ -471,6 +471,62 @@ footer {
   text-decoration: underline;
 }
 
+/*error page*/
+.errormain {
+  height: 60vh;
+}
+
+.errormain h1,
+.errormain a {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+.errormain h1 {
+  margin: 5em auto auto auto;
+  font-size: 2em;
+}
+
+.searchbar {
+  max-width: 360px;
+  border-style: ridge;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2em auto;
+}
+
+.searchbar i {
+  opacity: 50%;
+  margin: 1em;
+}
+
+input {
+  width: 100%;
+  height: 45px;
+  border: none;
+  font-size: 1em;
+}
+
+.errormain a {
+  color: #06c;
+}
+
+.errormain a:hover{
+  text-decoration: underline;
+}
+
+.errormain a i {
+  margin: 0 0 0 1em;
+}
+
+.footerterms {
+  display: flex;
+  align-items: center;
+}
+
 /*media*/
 @media screen and (max-width:768px) {
 
@@ -495,17 +551,17 @@ footer {
     margin: auto 4em;
   }
 
-  main {
+  .heromain {
     background-image: url(img/index_img/holiday20_small_2x.jpg);
     height: 500px;
   }
 
-  main img {
+  .heromain img {
     height: 56px;
     margin: 2em auto 0 auto;
   }
 
-  main h1 {
+  .heromain h1 {
     margin: 0.5em 2em;
     font-size: 2em;
   }
@@ -608,7 +664,7 @@ footer {
 
   .appletv p {
     font-size: 1em;
-    margin: 0.5em 3em;
+    margin: 0.5em 3.3em;
   }
 
   .footerterms p {
@@ -648,8 +704,8 @@ footer {
   }
 
   .directorycolumbsmobile hr {
-  opacity: 0.5;
-}
+    opacity: 0.5;
+  }
 
   .footsect {
     width: 100%;
