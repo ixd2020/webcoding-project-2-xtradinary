@@ -514,7 +514,7 @@ input {
   color: #06c;
 }
 
-.errormain a:hover{
+.errormain a:hover {
   text-decoration: underline;
 }
 
@@ -525,6 +525,344 @@ input {
 .footerterms {
   display: flex;
   align-items: center;
+}
+
+/*Support*/
+.supportmain {
+  background-image: url(img/support_img/hero-banner-baker-homepage.image.small_2x.jpg);
+  background-position: top;
+  background-size: cover;
+  height: 525px;
+}
+
+.supporthero {
+  padding: 5em;
+}
+
+.supportmain h1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 2.5em;
+}
+
+.searchbarsupport {
+  max-width: 600px;
+  border-style: ridge;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2em auto;
+  background-color: white;
+}
+
+.searchbarsupport i {
+  opacity: 50%;
+  margin: 1em;
+}
+
+input {
+  width: 100%;
+  height: 45px;
+  border: none;
+  font-size: 1em;
+}
+
+.supporticonlist {
+  display: flex;
+  justify-content: center;
+  margin: 2em auto 3em auto;
+}
+
+.supportservice {
+  display: flex;
+  justify-content: center;
+  margin: 2em;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.supportservicelist {
+  display: flex;
+  justify-content: center;
+  margin: 2em;
+}
+
+.supporticonlist li,
+.supportservicelist li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em;
+}
+
+.supporticonlist li img {
+  width: 50%;
+}
+
+.supportservicelist li img {
+  width: 50px;
+}
+
+.supporticonlist li a,
+.supportservicelist li a {
+  margin: 2em;
+  text-decoration: none;
+  color: black;
+}
+
+.supportservicelist li a {
+  margin: 1em;
+  text-decoration: none;
+  color: #06c;
+  text-align: center;
+}
+
+.supporticonlist li a:hover,
+.supportservicelist li a:hover {
+  text-decoration: underline;
+}
+
+.supportservicelist li:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.giftcard {
+  display: flex;
+  justify-content: center;
+  margin: 4em;
+}
+
+.giftcard h1 {
+  font-size: 2.5em;
+}
+
+.giftcard p {
+  font-size: 1.2em;
+  font-weight: 200;
+}
+
+.giftcard a {
+  font-size: 1.1em;
+  font-weight: 400;
+  text-decoration: none;
+  color: #06c;
+}
+
+.giftcard a:hover {
+  text-decoration: underline;
+}
+
+.giftcard img {
+  height: 200px;
+  margin: 0 2em;
+}
+
+.gifttext {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.getsupport {
+  background-image: url(img/support_img/psp-hero-banner-getsupport.image.large_2x.jpg);
+  background-position: top;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.getsupport h1 {
+  font-size: 2.5em;
+  font-weight: 500;
+  color: #f3f3f5;
+}
+
+.getsupport p {
+  font-size: 1em;
+  color: #f3f3f5;
+  margin: 1em 0;
+}
+
+.getsupport a {
+  font-size: 1.1em;
+  text-decoration: none;
+  color: #06c;
+}
+
+.getsupport a:hover {
+  text-decoration: underline;
+}
+
+.getsupport img {
+  height: 200px;
+  margin: 0 2em;
+}
+
+.applecare {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 4em;
+}
+
+.applecare h1 {
+  font-size: 2em;
+}
+
+.applecare p {
+  font-size: 1em;
+}
+
+.applecare a {
+  font-size: 1.1em;
+  text-decoration: none;
+  color: #06c;
+}
+
+.applecare a:hover {
+  text-decoration: underline;
+}
+
+.applecare img {
+  height: 200px;
+  margin: 0 2em;
+}
+
+.applecaretext {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.war {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 4em;
+  max-width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.war h1 {
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+.war p {
+  font-size: 1em;
+  font-weight: 400;
+  margin: 1em;
+  line-height: 1.5em;
+}
+
+.war a {
+  font-size: 1.1em;
+  text-decoration: none;
+  color: #06c;
+}
+
+.war a:hover {
+  text-decoration: underline;
+}
+
+.war img {
+  width: 30%;
+  margin: 0 2em;
+}
+
+.applecaretext {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.counterfeit {
+  text-align: center;
+  margin: 2em auto 3em auto;
+}
+
+.counterfeit h1 {
+  margin: 1em;
+  font-weight: 400;
+}
+.counterfeit p {
+  margin: 1em;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.counterfeit a {
+  text-decoration: none;
+  color: #06c;
+}
+
+.counterfeit a:hover {
+  text-decoration: underline;
+}
+
+
+.giftcardscam {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 4em;
+}
+
+.giftcardscam h1 {
+  font-weight: 400;
+  font-size: 2em;
+}
+
+
+.giftcardscamtext a {
+  font-size: 1em;
+  text-decoration: none;
+  color: #06c;
+  padding: 1em 0;
+
+}
+
+.giftcardscam a:hover {
+  text-decoration: underline;
+}
+
+.giftcardscam img {
+  width: 15%;
+  margin: 0 2em;
+}
+
+.serviceprogram {
+  display: flex;
+  justify-content: space-around;
+  padding: 3em;
+}
+
+
+.serviceprogramtext li{
+  list-style: none;
+  margin: 1em;
+}
+
+.serviceprogramtext li b{
+  font-size: 1.2em;
+}
+
+
+.serviceprogramtext a{
+  text-decoration: none;
+  color: #06c;
+}
+
+.serviceprogramtext a:hover {
+  text-decoration: underline;
 }
 
 /*media*/
